@@ -49,7 +49,6 @@ public class ConfigDb {
         factoryBean.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         factoryBean.setJpaProperties(props);
         factoryBean.setPackagesToScan("com.github.PP_2_3_1_WebCrudApp.model");
-
         return factoryBean;
 
     }

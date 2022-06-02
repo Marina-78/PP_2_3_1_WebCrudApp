@@ -13,7 +13,7 @@
         padding: 50px;
     }
 </style>
-<form method="post" th:action="@{/updateUser}" th:object="${user}">
+<form th:method="PATCH" th:action="@{/updateUser}" th:object="${user}">
     <h2>UPDATE USER</h2>
     <label for="id">ID</label>
     <input readonly type="number" th:field="*{id}" id="id">
